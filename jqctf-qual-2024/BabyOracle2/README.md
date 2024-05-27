@@ -23,7 +23,7 @@ Oracle 计算 $E_{ba}'=E_b/(T_1+sk_a\cdot T_2)$​
 
 可以利用 $2^i$-torsion 的点泄漏 Alice 私钥的一比特信息
 
-不妨设 $R_i$ 为 $2^{i+1}$-torsion 的点，记 $sk_{a_{l_i}}$ 表示 $sk_a$ 的低 $i$ 比特，$(sk_a)_{h_i}$ 表示 $sk_a$ 除去低 $i$ 比特后的高位
+不妨设 $R_i$ 为 $2^{i+1}$-torsion 的点，记 $sk_{a_{l_i}}$ 表示 $sk_a$ 的低 $i$ 比特，$sk_{a_{h_i}}$ 表示 $sk_a$ 除去低 $i$ 比特后的高位
 
 通过提交 $\phi_b(P)-(sk_a)_{l_i}\cdot R_i,\ \phi_b(Q)+R_i$
 
