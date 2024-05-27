@@ -31,7 +31,7 @@ $sk_{a_{h_i}}$ 表示 $sk_a$ 除去低 $i$ 比特后的高位
 
 通过提交 $\phi_b(P)-(sk_a)_{l_i}\cdot R_i,\ \phi_b(Q)+R_i$
 
-$T_1+sk_a\cdot T_2=\phi_b(P)-(sk_a)_{l_i}\cdot R_i+sk_a\cdot \phi_b(Q)+((sk_a)_{l_i}+(sk_a)_{h_i})\cdot R_i=\phi_b(P)+sk_a\cdot \phi_b(Q)+(sk_a)_{h_i}\cdot R_i$
+$T_1+sk_a\cdot T_2=\phi_b(P)-sk_{a_{l_i}}\cdot R_i+sk_a\cdot \phi_b(Q)+(sk_{a_{l_i}}+sk_{a_{h_i}}\cdot R_i=\phi_b(P)+sk_a\cdot \phi_b(Q)+sk_{a_{h_i}}\cdot R_i$
 
 若 $2^{i+1}|(sk_a)_{h_i}\Rightarrow T_1+sk_a\cdot T_2=\phi_b(P)+sk_a\cdot \phi_b(Q)$ ，故反馈 `True`
 
