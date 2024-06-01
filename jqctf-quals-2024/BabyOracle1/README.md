@@ -11,7 +11,7 @@ Is your Oracle safe enough? 😯
 
 ## Solution
 
-McEliece 结构，Goppa code作为编码方式，误差权重平均为90
+McEliece 结构，Goppa code作为编码方式，误差权重平均为80
 
 McEliece 结构不能使用同样的公钥去加密同一组明文
 
