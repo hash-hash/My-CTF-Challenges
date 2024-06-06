@@ -37,7 +37,7 @@ $\Rightarrow deg(\phi)=(\phi_a\cdot I\cdot \hat{\phi_a}+[d])\cdot (\overline{\ph
 
 由于已知 $\phi_a(P_b),\phi_a(Q_b)\in E_a[N_2],\ P_b,Q_b\in E_0[N_2]$
 
-$\phi(\phi_a(P_b))=\phi_a(I(N_1\cdot P_b))=\phi_a(x_0\cdot P_b+y_0\cdot Q_b)=x_0\cdot \phi_a(P_b)+y_0\cdot \phi_a(Q_b)$
+$\phi(\phi_a(P_b))=\phi_a(I(N_1\cdot P_b))=\phi_a(x_0\cdot P_b+y_0\cdot Q_b)=x_0\cdot \phi_a(P_b)+y_0\cdot \phi_a(Q_b)+d\cdot \phi_a(P_b)$
 
 $\phi(\phi_a(Q_b))$ 同理，由于 $deg(\phi)=N_2$，通过 DLP 求解 $Ker(\phi)$，还原 $\phi$​
 
