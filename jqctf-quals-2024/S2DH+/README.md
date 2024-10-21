@@ -33,7 +33,7 @@ $\Rightarrow N_1^2+d^2=N_2$
 
 构造自同态 $\phi:E_a\rightarrow E_a,\ \phi=\phi_a\cdot I\cdot \hat{\phi_a}+[d]$
 
-$\Rightarrow deg(\phi)=(\phi_a\cdot I\cdot \hat{\phi_a}+[d])\cdot (\overline{\phi_a\cdot I\cdot \hat{\phi_a}+[d]})=N_1^2+d^2=N_2$
+$\Rightarrow deg(\phi)=(\phi_a\cdot I\cdot \hat{\phi_a}+[d])\cdot (\hat{\phi_a\cdot I\cdot \hat{\phi_a}+[d]})=N_1^2+d^2=N_2$
 
 由于已知 $\phi_a(P_b),\phi_a(Q_b)\in E_a[N_2],\ P_b,Q_b\in E_0[N_2]$
 
