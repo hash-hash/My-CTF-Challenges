@@ -2,6 +2,7 @@
 
 + Category: **Crypto**
 + Difficulty: ★★★
++ Solved: 4
 + Tag: **ISD, HSSP, MT19937**
 
 ## Description
