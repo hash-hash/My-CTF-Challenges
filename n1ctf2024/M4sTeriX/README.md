@@ -29,7 +29,7 @@ The main observation is that $\vec{a_i},\vec{h_j}$ are short vectors, so $\langl
 
 When the value is smaller than the shortest orthogonal vector of $\vec{s}$, it implies that $\langle \vec{a_i},\vec{\mathcal{h_j}}\rangle=0\ mod\ q$ .
 
-i.e. $\vec{a_i}$ is in the orthogonal lattice $\mathcal{L'}^\bot$ of $\vec{h_j}$. Therefore, by compute the LLL-reduced basis of $\mathcal{L'}^\bot$, we obtain some linear combination of $\vec{a_i}$ .
+i.e. $\vec{a_i}$ is in the orthogonal lattice $\mathcal{L'}^\bot$ of $\vec{h_j}$. Therefore, by compute the LLL-reduced basis of $\mathcal{L'}^\bot$, we obtain some linear combination of $\vec{a_i}$.
 
 ### II. Recovering MT19937
 
