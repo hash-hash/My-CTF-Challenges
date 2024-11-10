@@ -14,7 +14,7 @@ Referring to recent work about XCB mode analysis.
 
 [How to Recover the Full Plaintext of XCB](https://eprint.iacr.org/2024/1527)
 
-<img src="/Users/h45h_h45h/Library/Application Support/typora-user-images/image-20241021153622316.png" alt="image-20241021153622316" style="zoom:50%;" />
+<img src="https://picture-1311455354.cos.ap-shanghai.myqcloud.com/img/image-20241021153622316.png" alt="image-20241021153622316" style="zoom:50%;" />
 
 The paper analysed the CCA security about the tweakable structure. I just add some constraints about tweak, every tweak could just used once. By generalizing the attack in the paper, solutions can be easily found.
 
