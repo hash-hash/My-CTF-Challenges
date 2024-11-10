@@ -2,6 +2,7 @@
 
 + Category: **Crypto**
 + Difficulty: ★★
++ Solved: 4
 + Tag: **Isogeny**
 
 ## Description
