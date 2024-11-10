@@ -16,7 +16,10 @@ $\vec{c}$ is generated in the form of $\vec{c} = \vec{s}\times A+\alpha\cdot \ve
 
 We need to solve for $A$ given $\vec{c},\vec{e}$. The problem is similar to Hidden Subset Sum Problem.
 
-First, let $\mathcal{L}^\bot$ be an orthogonal lattice  of $\left[\begin{matrix}\vec{c}\\\vec{e}\end{matrix}\right]$ . Then compute a LLL-reduced basis $\mathcal{L}$ of $\mathcal{L}^\bot$ .
+First, let $\mathcal{L}^\bot$ 
+be an orthogonal lattice  of $\left[\begin{matrix}\vec{c}\\\vec{e}\end{matrix}\right]$.
+
+Then compute a LLL-reduced basis $\mathcal{L}$ of $\mathcal{L}^\bot$ .
 
 For every $\vec{h_j}\in\mathcal{L}$ $\Rightarrow \langle\vec{h_j},c\rangle=\sum_i s_i\cdot \langle\vec{a_i},\vec{h_j}\rangle+\alpha\cdot\langle\vec{e},\vec{h_j}\rangle=0\ mod\ q$ .
 
