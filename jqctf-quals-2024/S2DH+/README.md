@@ -47,7 +47,7 @@ $\phi(\phi_a(Q_b))$ 同理，由于 $deg(\phi)=N_2$，通过 DLP 求解 $Ker(\ph
 
 由于 $deg(\phi_a\cdot I\cdot \hat{\phi_a})=N_1^2$，求解 DLP 得 $Ker(\hat{\phi_a})$，还原 $\phi_a$
 
-再计算 $\phi_a(P_a),\ phi_a(Q_a)$，求解 DLP 得 $sk_a$​，对密文解密。
+再计算 $\phi_a(P_a),\phi_a(Q_a)$，求解 DLP 得 $sk_a$​，对密文解密。
 
 整体上参考了 `séta` 的思路，但是更一般性的参数构造需要利用四元代数，本题直接从构造方程解出发，考虑的情况更加简单。
 
