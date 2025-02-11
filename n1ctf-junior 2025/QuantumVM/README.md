@@ -21,7 +21,7 @@ $CNOT(|+\rangle,|0\rangle)$ 输出只能为 $|00\rangle$ 或 $|11\rangle$，在�
 
 由于有非常多这样的输出，可以利用 Lattice 的想法进行还原
 
-构造同态映射 $\phi:(\{0,1\},\oplus)\rightarrow (\{-1,1\},\times)$
+构造同态映射 $\phi:(\{0,1\},\oplus)\rightarrow (\set{-1,1},\times)$
 
 $\because m\oplus q_i=c_i\Rightarrow m\oplus c_i=q_i$
 
