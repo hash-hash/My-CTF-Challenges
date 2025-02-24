@@ -28,7 +28,10 @@ G=
 &V\end{matrix}\right\]
 $$
 
-$\Rightarrow G^\perp=\left[\begin{matrix}U^\perp\\V^\perp&V^\perp\end{matrix}\right]$
+$$
+\Rightarrow G^\perp=\left[\begin{matrix}U^\perp\\
+V^\perp&V^\perp\end{matrix}\right]
+$$
 
 论文中提到了一种区分方式，即 $dim(G\cap G^\perp)=10$ 以大概率成立
 
