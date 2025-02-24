@@ -21,6 +21,7 @@ McEliece 框架下 $(U,U+V)-Codes$ 在特定参数下的可区分性
 
 $\Rightarrow G^\perp=\left[\begin{matrix}U^\perp\\V^\perp&V^\perp\end{matrix}\right]$
 
+
 论文中提到了一种区分方式，即 $dim(G\cap G^\perp)=10$ 以大概率成立
 
 还需要考虑的问题是这个性质在 $SGP$ 下的情况
