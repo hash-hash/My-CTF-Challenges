@@ -43,7 +43,14 @@ $$
 
 故对于 $C=SGP$ 有 $C\cdot C^T=S\cdot G\cdot P\cdot P^{T}G^{T}\cdot S^{T}=S\cdot (G\cdot G^{T})\cdot S^{T}$
 
-考虑 $G\cdot G^{T}$ 的形式，$G\cdot G^{T}=\left[\begin{matrix}2U\cdot U^{T}&U\cdot V^{T}\\V\cdot U^{T}&V\cdot V^{T}\end{matrix}\right]=\left[\begin{matrix}0&U\cdot V^{T}\\V\cdot U^{T}&V\cdot V^{T}\end{matrix}\right]$
+考虑 $G\cdot G^{T}$ 的形式，
+
+$$G\cdot G^{T}=
+\left[\begin{matrix}2U\cdot U^{T}&U\cdot V^{T}\\
+V\cdot U^{T}&V\cdot V^{T}\end{matrix}\right]=
+\left[\begin{matrix}0&U\cdot V^{T}\\
+V\cdot U^{T}&V\cdot V^{T}\end{matrix}\right]
+$$
 
 注意到 $V\cdot U^{T}$ 为 $50\times 60$ 的矩阵，秩最多为 50，故 $dim(G\cdot G^{T})\le100$ ，从而可以透过 $C\cdot C^{T}$ 观察这一点
 
