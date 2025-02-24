@@ -15,7 +15,10 @@ McEliece 框架下 $(U,U+V)-Codes$ 在特定参数下的可区分性
 
 即区分 $SGP$ 中 $G$ 为随机 $F_2$ 矩阵或 
 
-$$\left[\begin{matrix}U&U\\&V\end{matrix}\right]$$
+$$
+\left[\begin{matrix}U&U \\
+&V \end{matrix}\right]
+$$
 
 对于 
 
