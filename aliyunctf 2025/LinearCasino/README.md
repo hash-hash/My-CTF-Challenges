@@ -2,6 +2,7 @@
 
 + Category: **Crypto**
 + Difficulty: ★☆
++ Solved: 19
 + Tag: **linear algebra**
 
 ## Description

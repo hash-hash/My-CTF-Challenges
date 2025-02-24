@@ -2,6 +2,7 @@
 
 + Category: **Crypto**
 + Difficulty: ★★
++ Solved: 5
 + Tag: **ARX, Feistel**
 
 ## Description

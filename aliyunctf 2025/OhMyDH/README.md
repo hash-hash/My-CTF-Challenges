@@ -2,6 +2,7 @@
 
 + Category: **Crypto**
 + Difficulty: ★★★
++ Solved: 2
 + Tag: **Quaternion, CSIDH**
 
 ## Description
