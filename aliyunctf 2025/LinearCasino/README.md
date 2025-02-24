@@ -20,10 +20,11 @@ $$
 &V\end{matrix}\right]
 $$
 
-
 对于 
+
 $$
-G=\left\[\begin{matrix}U&U\\
+G=
+\left\[\begin{matrix}U&U\\
 &V\end{matrix}\right\]
 $$
 
