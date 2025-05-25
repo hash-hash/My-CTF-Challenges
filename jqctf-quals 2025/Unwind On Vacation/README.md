@@ -24,3 +24,10 @@ It's time to Unwind On Vacation 🏖️
 拿到 $O$ 后走正常签名步骤即可。
 
 > 实际上利用 O 的特殊性能够通过猜测某个位置来减少变量个数使得方程可解，相比使用 LLL 来拿到特定的向量更直接。
+>
+> 还有一个更优的思路来自 RedBud：
+>
+> $Eq_i:(P_3+P_3^T)+O^T\times (P_1+P_1^T)\times O+(O^T\times P_2+P_2^T\times O)=0$
+>
+> 通过线性组合系数 $\sum a_iEq_i$ 消除二次项得到纯粹的关于 $O^T$ 的一次项来求解，实际上这样不需要利用 O 生成的特殊性，只需要 refresh 次数足够即可。
+
