@@ -14,7 +14,7 @@ This challenge provides a series of masks and filters. You first need to perform
 
 + The second filter is linear.
 
-+ Mask (` 0x83c7efefc783`) has a very short cycle.
++ Mask (`0x83c7efefc783`) has a very short cycle.
 
 + Some masks have the same cycle length.
 
