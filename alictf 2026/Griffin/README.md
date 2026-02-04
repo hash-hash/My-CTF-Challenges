@@ -18,7 +18,7 @@ Having barely survived the scorching breath of the Chimera, I now stand before a
 
 之后可以将 $\text{Hawk}^T$ 写成 $F\times V(x_1,\dots,x_{2d})=Hawk^T$
 
-其中 $F_{m\times d}$ 为系数矩阵，$V$ 为范德蒙德矩阵。这个问题和 HSSP 十分类似，可以将其视为 McEliece 框架下的公钥分解，因为 McEliece 在 Reedsolomen Code 下是不安全的，可以参考 https://crypto-kantiana.com/elena.kirshanova/talks/Sidelnikov_Shestakov.pdf 来恢复 $xs$。
+其中 $F\_{m\times d}$ 为系数矩阵，$V$ 为范德蒙德矩阵。这个问题和 HSSP 十分类似，可以将其视为 McEliece 框架下的公钥分解，因为 McEliece 在 Reedsolomen Code 下是不安全的，可以参考 https://crypto-kantiana.com/elena.kirshanova/talks/Sidelnikov_Shestakov.pdf 来恢复 $xs$。
 
 最终可能有一到两个候选项并且有一个较小的位移（大概 5 左右），需要进行枚举。通过求根，可以得到 $\text{FLAG}\ mod\ p+1$ 的结果，其中 $p$ 大概 170 比特左右。注意到 FLAG 的格式，只有 32 个 hex 字符未知，简单的构造是按照 $256^i$ 构造背包格，容易发现这个对于数字加小写字母的组合并不好balance，可以通过构造 $16^i$ 的格来获得更好的 balance 效果。
 
