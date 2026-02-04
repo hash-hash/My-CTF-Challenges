@@ -21,5 +21,5 @@ Random.seed 的部分可以参考 https://stackered.com/blog/python-random-predi
 
 构造的大体方向和 [DiceG@me](https://github.com/hash-hash/My-CTF-Challenges/tree/main/jqctf-final%202025/DiceG%40me) 一致，还是试图伪造 $h_2=1,h_1\neq 1$ 的 proof。
 
-绕过方式是构造 $r_i$ 为 1 或者 `a = b2l(b'\x01.\x01')` 中的一种，$h_1=a^{-1}\ mod\ N$，当选择的 $r$ 序列确定，调换 $r_i$ 中任意元素顺序都不会影响 $c$ 的最终结果，所以只要 $c$ 中 $0/1$ 个数和 $r$ 中 `1/a` 个数一致，最终就可以通过调整 $r$ 序列中的顺序让 128 次检查都通过。后续按照原来 DiceG@me 的逻辑做即可。
+绕过方式是构造 $r_i$ 为 1 或者 `a = b2l(b'\x01.\x01')` 中的一种，$h_1=a^{-1}mod\ N$，当选择的 $r$ 序列确定，调换 $r_i$ 中任意元素顺序都不会影响 $c$ 的最终结果，所以只要 $c$ 中 $0/1$ 个数和 $r$ 中 `1/a` 个数一致，最终就可以通过调整 $r$ 序列中的顺序让 128 次检查都通过。后续按照原来 DiceG@me 的逻辑做即可。
 
