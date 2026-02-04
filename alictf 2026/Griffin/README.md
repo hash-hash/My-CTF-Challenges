@@ -16,9 +16,7 @@ Having barely survived the scorching breath of the Chimera, I now stand before a
 
 接下来需要将 $\text{Hawk}$ 从 $\text{Griffin }$ 中提取出来，需要注意的是 $\text{Hawk}$ 是 $m$ 个 $d-1$ 度多项式在 $2d$ 个点估值的结果，因此 $rank(\text{Hawk}_{2d\times m})=d$ 。利用这个特点我们可以结合 plain-ISD 的思想，在 $(k+2d)\times m$ 的矩阵抽 $m$ 行，然后检查矩阵是否满秩，若不满秩则逐行去除并检查秩的变化，这样可以将有线性关系的 $2d$ 行全部取出。
 
-之后可以将 $\text{Hawk}^T$ 写成 $F\cdot V(x_1,\dots,x_{2d})=Hawk^T$
-
-其中 $F\_{m\times d}$ 为系数矩阵，$V\_{d\times 2d}$ 为范德蒙德矩阵。
+之后可以将 $\text{Hawk}^T$ 写成 $F\cdot V(x_1,\dots,x_{2d})=Hawk^T$ 。其中 $F\_{m\times d}$ 为系数矩阵， $V\_{d\times 2d}$ 为范德蒙德矩阵。
 
 该问题和 HSSP 十分类似，可以将其视为 McEliece 框架下的公钥分解，因为 McEliece 在 Reedsolomen Code 下是不安全的，可以参考 https://crypto-kantiana.com/elena.kirshanova/talks/Sidelnikov_Shestakov.pdf 来恢复 $xs$。
 
